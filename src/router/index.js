@@ -104,6 +104,15 @@ export const constantRoutes = [
            title: '矿井和周边煤矿采空区相关资料',
            icon: 'table'
          }
+       },
+       {
+         path: 'echartsModel',
+         name: 'EchartsModel',
+         component: () => import('@/views/echarts/index'),
+         meta: {
+           title: '示例',
+           icon: 'table'
+         }
        }
     ]
   },
